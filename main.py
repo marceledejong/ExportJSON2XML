@@ -11,6 +11,8 @@ import json
 import xml.etree.ElementTree as ET
 
 
+
+
 # create the output directory if it doesn't already exist
 output_dir = "output"
 if not os.path.exists(output_dir):
