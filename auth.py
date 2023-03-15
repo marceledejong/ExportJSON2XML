@@ -6,7 +6,6 @@ USERS = {
     'user2': 'password2'
 }
 
-
 # function to check if a username and password are valid
 def check_auth(username, password):
     return username in USERS and USERS[username] == password
